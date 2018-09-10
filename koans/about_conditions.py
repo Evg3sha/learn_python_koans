@@ -71,7 +71,7 @@ def test_elif_and_else():
         Исследуем работу else 
         необходимо заполнить условия возле if и elif чтобы сработал else
     """
-    if (3 > 2) == False:
+    if 3 > 2 == False:
         a = None
     elif 3 > 2 == True:
         a = None
